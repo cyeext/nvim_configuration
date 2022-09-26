@@ -1,0 +1,82 @@
+{
+    "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "filetypes": ["c", "cpp", "objc", "objcpp"],
+            "rootPatterns": [".ccls-root", "compile_commands.json"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": ".ccls-cache"
+                },
+                "completeion": {
+                    "detailedlable": true,
+                    "placeholder": true
+                },
+                "client": {
+                    "snippetSupport": true
+                },
+                "highlight": {
+                    "lsRanges": true
+                }
+            }
+        }
+    },
+    "prettier.tabWidth": 4,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.js": "prettier",
+    "snippets.ultisnips.enable": false,
+    "css.colorDecorators.enable": true,
+    "coc.preferences.formatOnType": true,
+    "coc.preferences.formatOnTypeFiletypes": ["'python'"],
+    "coc.preferences.formatOnSaveFiletypes": ["'python'"],
+    "python.pythonPath": "python3",
+    "javascript.referencesCodeLens.enable": true,
+    "markdownlint.config": {
+        "line-length": false
+    },
+    "suggest.completionItemKindLabels": {
+        "class": "\ufb2c",
+        "color": "\ue22b",
+        "constant": "\uf8fe",
+        "default": "\uf29c",
+        "enum": "\uf435",
+        "enumMember": "\uf02b",
+        "event": "\ufacd",
+        "field": "\uf93d",
+        "file": "\uf723",
+        "folder": "\uf115",
+        "function": "\u0192",
+        "interface": "\uf417",
+        "keyword": "\uf1de",
+        "method": "\uf6a6",
+        "module": "\uf40d",
+        "operator": "\uf915",
+        "property": "\ue624",
+        "reference": "\ufa46",
+        "snippet": "\ue60b",
+        "struct": "\ufb44",
+        "text": "\ue612",
+        "typeParameter": "\uf728",
+        "unit": "\uf475",
+        "value": "\uf89f",
+        "variable": "\ufa77"
+    },
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "suggest.noselect": true,
+    "suggest.enablePreselect": false,
+    "diagnostic.errorSign": "\uf467",
+    "diagnostic.warningSign": "\uf071",
+    "diagnostic.infoSign": "\uf129",
+    "diagnostic.hintSign": "\uf864",
+    "diagnostic.displayByAle": false,
+    "diagnostic.refreshOnInsertMode": false,
+    "diagnostic.checkCurrentLine": true,
+    "diagnostic.virtualTextPrefix": " ❯❯❯ ",
+    "diagnostic.virtualText": true,
+    "codeLens.enable": true,
+    "snippets.extends": {
+        "html": ["htmldjango"],
+        "htmldjango": ["html"]
+    },
+    "Lua.telemetry.enable": true
+}

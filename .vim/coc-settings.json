@@ -1,0 +1,48 @@
+{
+	"latex.build.args": [
+		"-pdf",
+		"-interaction=nonstopmode",
+		"-synctex=1",
+		"-pvc"
+	],
+	"latex.build.forwardSearchAfter": true,
+	"latex.forwardSearch.executable": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+	"latex.forwardSearch.args": [
+		"%l",
+		"%p",
+		"%f"
+	],
+	"latex.build.onSave": true,
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.useLibraryCodeForTypes": false,
+	"python.formatting.provider": "autopep8",
+	"python.analysis.stubPath": "typings",
+	"python.venvPath": "/Users/chenyang/.venvs",
+	"python.analysis.typeshedPaths": [
+		"/Users/chenyang/typeshed"
+	],
+	"coc.preferences.formatOnSaveFiletypes": [
+		"python",
+		"html",
+		"json",
+		"latex"
+	],
+	"snippets.ultisnips.enable": true,
+	"snippets.extends": {
+		"html": [
+			"htmldjango",
+			"jinja",
+			"htmltornado",
+			"css"
+		],
+		"python": [
+			"django"
+		]
+  },
+  "python.diagnostics.sourceMapsEnabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "Lua.diagnostics.disable": [
+    "unused-local"
+  ]
+}
